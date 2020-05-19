@@ -1,0 +1,5 @@
+CREATE TABLE user (
+  id VARCHAR PRIMARY KEY,
+  domainId VARCHAR UNIQUE,
+  data TEXT
+);

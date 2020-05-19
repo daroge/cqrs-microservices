@@ -1,12 +1,13 @@
-package de.daroge.cqrs.writeside.domain;
+package de.daroge.cqrs.writeside.core.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.Value;
 import stereotype.AggregateId;
 
-@Getter
+
+@Value
 @AggregateId
-@AllArgsConstructor
 public class UserId {
     private String userId;
 }
